@@ -1,8 +1,10 @@
+@import '/src/styles/theme/breakpoint'
+    
 .logo 
     display: flex
     align-items: center
-    gap: 1rem
-    color: #E23E57
+    color: #e23e57
+    
 
     .logo_image 
         display: flex
@@ -11,6 +13,13 @@
         img 
             height: 100%
 
-    .logo_text 
-        font-size: 3rem
-        font-family: 'Londrina Solid', cursive
+    .logo_text
+        display: none
+
+    @media screen and (min-width: $tabletBreakpoint) 
+        gap: 1rem
+
+        .logo_text 
+            display: block
+            font-size: 3rem
+            font-family: 'Londrina Solid', cursive
