@@ -10,7 +10,8 @@
     grid-template-columns: repeat(3, 1fr)
     align-items: center
 
-    position: relative
+    position: sticky
+    top: 0
 
     .menu_controller 
         .menu_icon
@@ -58,7 +59,7 @@
             
 
         .menu_icon.open span:nth-child(1) 
-            top: 18px
+            top: 6px
             -webkit-transform: rotate(135deg)
             -moz-transform: rotate(135deg)
             -o-transform: rotate(135deg)
@@ -71,7 +72,7 @@
             
 
         .menu_icon.open span:nth-child(3) 
-            top: 18px
+            top: 6px
             -webkit-transform: rotate(-135deg)
             -moz-transform: rotate(-135deg)
             -o-transform: rotate(-135deg)
@@ -89,6 +90,18 @@
         top: 100%
         left: 0
 
+        &.enabled 
+            display: block
+            animation: .3s turnVisible ease-in-out forwards
+
+            .nav 
+                animation: .3s openMenu ease-in-out forwards
+
+        &.disabled 
+            display: block
+            animation: .3s turnInvisible ease-in-out forwards
+            .nav 
+                animation: .3s closeMenu ease-in-out forwards
         
         .nav 
             background: #fff
@@ -151,6 +164,13 @@
 
             background: none
             position: static
+
+            &.disabled 
+                display: block
+                animation: none
+                .nav 
+                    animation: none
+        
             
             .nav 
                 background: none
@@ -190,4 +210,27 @@
                         &.button_li::after 
                             height: 0
             
-                        
+    @keyframes turnVisible 
+        0% 
+            opacity: 0
+        100% 
+            opacity: 1    
+    @keyframes turnInvisible 
+        0% 
+            opacity: 1
+        100% 
+            opacity: 0    
+    @keyframes openMenu 
+        0% 
+            opacity: 0
+            transform: translateX(-100vw)
+        100% 
+            opacity: 1
+            transform: translateX(0) 
+    @keyframes closeMenu
+        0%
+            transform: translateX(0)
+        99%
+            transform: translateX(-100vw)
+        100%
+            display: none
