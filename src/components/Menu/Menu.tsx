@@ -4,7 +4,6 @@ import React from "react";
 
 const Menu = () => {
   const [isOpen, setIsOpen] = React.useState<boolean>(false);
-  console.log(isOpen);
   return (
     <header className={styles.header}>
       <div className={styles.menu_controller}>

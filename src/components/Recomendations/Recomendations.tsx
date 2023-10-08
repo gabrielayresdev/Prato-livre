@@ -8,16 +8,18 @@ interface IPlates {
   price: number;
 }
 
-const Recomendations = (plates: IPlates[]) => {
+const Recomendations = ({ plates }: { plates: IPlates[] }) => {
   return (
-    <div>
-      <p>Não sabe o que pedir? </p>
-      <p>Experimente nossas marmitas prontas</p>
+    <div className={styles.recomendations}>
+      <p className={styles.paragraph}>Não sabe o que pedir? </p>
+      <p className={styles.paragraph}>
+        Experimente nossas <span>marmitas já montadas</span>
+      </p>
 
       <div className={styles.carousel}>
         {plates.map(({ name, description, img, price }) => {
           return (
-            <div>
+            <div className={styles.recomendation}>
               <h4 className={styles.name}>{name}</h4>
               <p className={styles.description}>{description}</p>
               <p className={styles.price}>R$ {price}</p>
