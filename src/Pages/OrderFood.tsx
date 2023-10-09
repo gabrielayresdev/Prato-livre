@@ -1,9 +1,13 @@
 import React from "react";
 import Recomendations from "../components/Recomendations/Recomendations";
+import Portion from "../components/PortionsSelection/Portion";
+import styles from "./OrderFood.module.sass";
+import AccordionList from "../components/AccordionList/AccordionList";
 
 const OrderFood = () => {
   return (
-    <div>
+    <div className={styles.order}>
+      <h2 className={styles.title}>Monte sua marmita</h2>
       <Recomendations
         plates={[
           {
@@ -22,6 +26,10 @@ const OrderFood = () => {
           },
         ]}
       />
+
+      <AccordionList title="Acompanhamento">
+        <Portion name={"Arroz branco"} weight={324} />
+      </AccordionList>
     </div>
   );
 };

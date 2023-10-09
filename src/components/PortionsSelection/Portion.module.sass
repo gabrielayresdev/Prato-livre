@@ -1,0 +1,42 @@
+.portion 
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: .5rem 1rem
+
+    width: 100%
+    background: #FAFAFA
+    border-bottom: 1px solid #4444441a
+    .left_side
+        .name 
+            color: #111111
+            font-size: 0.9375rem
+        .weight 
+            color: #444
+            font-size: 0.625rem
+
+    .right_side 
+        display: flex
+        align-items: center
+        .amount 
+            padding: .25rem 0.625rem
+            color: #444
+            border: 1px solid #ddd
+            border-radius: .25rem
+
+            display: flex
+            align-items: center
+            justify-content: center
+            height: min-content
+
+            
+        button 
+            all: unset
+            padding: .4rem
+
+            cursor: pointer
+
+            display: flex
+            align-items: center
+            &:hover 
+                transform: scale(1.25)
