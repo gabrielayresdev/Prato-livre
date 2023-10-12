@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Arroz, Batata Frita e Bife",
+    "description": "Uma deliciosa combinação de arroz, batata frita e bife grelhado.",
+    "group": "Carnes",
+    "price": 25.0,
+    "image": "#"
+  },
+  {
+    "name": "Arroz a Piemontese com Bife ao Molho Madeira",
+    "description": "Arroz cremoso a piemontese com bife ao molho madeira e vira carré.",
+    "group": "Carnes",
+    "price": 30.0,
+    "image": "#"
+  },
+  {
+    "name": "Estrogonofe de Frango",
+    "description": "Um clássico estrogonofe de frango com molho cremoso e arroz.",
+    "group": "Carnes",
+    "price": 22.0,
+    "image": "#"
+  },
+  {
+    "name": "Bife de Frango à Parmegiana",
+    "description": "Bife de frango à parmegiana com molho de tomate e queijo gratinado.",
+    "group": "Carnes",
+    "price": 28.0,
+    "image": "#"
+  },
+  {
+    "name": "Frango Assado com Açúcar Mascavo e Pimenta",
+    "description": "Peito de frango assado com açúcar mascavo e pimenta, acompanhado de legumes.",
+    "group": "Carnes",
+    "price": 26.0,
+    "image": "#"
+  },
+  {
+    "name": "Churrasco de Picanha com Batata Frita",
+    "description": "Picanha suculenta grelhada com batata frita crocante.",
+    "group": "Carnes",
+    "price": 32.0,
+    "image": "#"
+  },
+
+  {
+    "name": "Batata Rústica",
+    "description": "Batata rústica crocante com temperos especiais.",
+    "group": "Frituras",
+    "price": 12.0,
+    "image": "#"
+  },
+  {
+    "name": "Nuggets Veganos de Grão-de-bico",
+    "description": "Nuggets veganos feitos de grão-de-bico, acompanhados de molho.",
+    "group": "Frituras",
+    "price": 15.0,
+    "image": "#"
+  },
+  {
+    "name": "Onion Rings",
+    "description": "Anéis de cebola empanados e fritos, servidos com molho barbecue.",
+    "group": "Frituras",
+    "price": 10.0,
+    "image": "#"
+  },
+  {
+    "name": "Tempurá",
+    "description": "Uma seleção de vegetais e frutos do mar empanados e fritos, com molho de mergulho.",
+    "group": "Frituras",
+    "price": 18.0,
+    "image": "#"
+  },
+
+  {
+    "name": "Batata Recheada",
+    "description": "Batata assada recheada com queijo e bacon.",
+    "group": "Gratinados",
+    "price": 14.0,
+    "image": "#"
+  },
+  {
+    "name": "Escondidinho de Carne Moída",
+    "description": "Escondidinho de carne moída com purê de mandioca e queijo gratinado.",
+    "group": "Gratinados",
+    "price": 20.0,
+    "image": "#"
+  },
+  {
+    "name": "Escondidinho de Frango",
+    "description": "Escondidinho de frango desfiado com purê de batata e queijo gratinado.",
+    "group": "Gratinados",
+    "price": 18.0,
+    "image": "#"
+  },
+  {
+    "name": "Gratinado de Legumes",
+    "description": "Um gratinado de legumes variados com queijo derretido.",
+    "group": "Gratinados",
+    "price": 16.0,
+    "image": "#"
+  },
+
+  {
+    "name": "Macarrão a Carbonara",
+    "description": "Macarrão com molho à carbonara, pancetta e queijo parmesão.",
+    "group": "Massas",
+    "price": 24.0,
+    "image": "#"
+  },
+  {
+    "name": "Macarrão Parafuso com Salada de Maionese",
+    "description": "Macarrão parafuso com uma deliciosa salada de maionese.",
+    "group": "Massas",
+    "price": 16.0,
+    "image": "#"
+  },
+  {
+    "name": "Lasanha à Bolonhesa",
+    "description": "Lasanha recheada com carne moída e molho de tomate.",
+    "group": "Massas",
+    "price": 22.0,
+    "image": "#"
+  },
+  {
+    "name": "Nhoque",
+    "description": "Nhoque caseiro com molho de sua escolha.",
+    "group": "Massas",
+    "price": 20.0,
+    "image": "#"
+  },
+
+  {
+    "name": "Cação ao Molho de Tomate",
+    "description": "Filé de cação ao molho de tomate e ervas.",
+    "group": "Peixes",
+    "price": 26.0,
+    "image": "#"
+  },
+  {
+    "name": "Salmão Grelhado",
+    "description": "Salmão grelhado com temperos e ervas.",
+    "group": "Peixes",
+    "price": 30.0,
+    "image": "#"
+  },
+  {
+    "name": "Camarão Frito",
+    "description": "Camarões empanados e fritos, acompanhados de molho.",
+    "group": "Peixes",
+    "price": 28.0,
+    "image": "#"
+  },
+  {
+    "name": "Sardinha",
+    "description": "Sardinhas grelhadas com temperos e limão.",
+    "group": "Peixes",
+    "price": 20.0,
+    "image": "#"
+  },
+  {
+    "name": "Tilapia",
+    "description": "Filé de tilápia grelhada com temperos e limão.",
+    "group": "Peixes",
+    "price": 22.0,
+    "image": "#"
+  }
+]
