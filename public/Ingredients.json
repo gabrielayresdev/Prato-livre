@@ -1,0 +1,48 @@
+{
+  "porções principais": [
+    {
+      "name": "Bife ao molho madeira",
+      "weight": 180
+    }
+  ],
+  "acompanhamentos": [
+    {
+      "name": "arroz branco",
+      "weight": 450
+    },
+    {
+      "name": "arroz integral",
+      "weight": 450
+    },
+    {
+      "name": "feijão preto",
+      "weight": 100
+    },
+    {
+      "name": "feijão carioca",
+      "weight": 100
+    },
+    {
+      "name": "batata palha",
+      "weight": 30
+    }
+  ],
+  "massas": [
+    {
+      "name": "spaghetti",
+      "weight": 300
+    }
+  ],
+  "saladas e legumes": [
+    {
+      "name": "alface",
+      "weight": 10
+    }
+  ],
+  "bebidas": [
+    {
+      "name": "Suco de laranja",
+      "volume": 300
+    }
+  ]
+}

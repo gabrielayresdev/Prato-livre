@@ -5,7 +5,7 @@ import plus from "/src/assets/icons/Plus.svg";
 
 interface IPortion {
   name: string;
-  weight: number;
+  weight: string;
 }
 
 const Portion = ({ name, weight }: IPortion) => {

@@ -35,11 +35,11 @@
     "image": "#"
   },
   {
-    "name": "Churrasco de Picanha com Batata Frita",
+    "name": "Churrasco com fritas",
     "description": "Picanha suculenta grelhada com batata frita crocante.",
     "group": "Carnes",
     "price": 32.0,
-    "image": "#"
+    "image": "https://i.imgur.com/azori9v.jpg"
   },
 
   {
