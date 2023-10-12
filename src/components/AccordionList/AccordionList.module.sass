@@ -1,12 +1,12 @@
 .accordion 
-    display: grid
-    grid-auto-rows: 1fr
     .title 
         display: flex 
         align-items: center 
         justify-content: space-between
         padding: .5rem 1rem
         border-bottom: 1px solid #44444442
+
+        min-height: 2.6875rem
         
         background: #F2F2F2
 
@@ -14,3 +14,34 @@
             font-weight: 300
             font-family: 'Londrina Solid', cursive
             text-transform: capitalize
+        .down_icon:hover 
+            transform: rotate(360deg)
+            transition: all .3s
+    .content 
+        display: block
+
+        &.inactive
+            animation: .3s slideUp ease-in-out forwards
+
+        &.active 
+            animation: .3s slideDown ease-in-out forwards
+
+    @keyframes slideDown
+        0%
+            display: none
+            opacity: 0
+            max-height: 0
+        100%
+            display: block
+            opacity: 1
+            max-height: 20rem
+    @keyframes slideUp
+        0%
+            display: block
+            opacity: 1
+            max-height: 20rem
+            
+        100%
+            display: none
+            opacity: 0
+            max-height: 0

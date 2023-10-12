@@ -61,7 +61,7 @@ const OrderFood = () => {
         <div className={styles.portions_selection}>
           <h3 className={styles.title}>Escolha suas porções</h3>
           {Object.entries(portions).map(([key, value]) => {
-            if (key !== "drink") {
+            if (key === "drink") {
               return (
                 <AccordionList title={key}>
                   {(value as drink[]).map((portion) => {
@@ -75,7 +75,7 @@ const OrderFood = () => {
                 </AccordionList>
               );
             }
-            // If it's a drink, returns:
+            // If it's an ingredient, returns:
             else {
               return (
                 <AccordionList title={key}>

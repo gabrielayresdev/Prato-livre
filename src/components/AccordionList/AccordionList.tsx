@@ -7,15 +7,28 @@ interface IAccordion extends PropsWithChildren {
 }
 
 const AccordionList = ({ title, children }: IAccordion) => {
+  const [closed, setClosed] = React.useState<boolean>(false);
+  console.log(closed);
   return (
     <div className={styles.accordion}>
-      <div className={styles.title}>
+      <div
+        className={styles.title}
+        onClick={({ target }) => {
+          setClosed(!closed);
+        }}
+      >
         <h2 className={styles.group_name}>{title}</h2>
-        <div>
+        <div className={styles.down_icon}>
           <img src={down} />
         </div>
       </div>
-      {children}
+      <div
+        className={`${styles.content} ${
+          closed ? styles.inactive : styles.active
+        }`}
+      >
+        {children}
+      </div>
     </div>
   );
 };
